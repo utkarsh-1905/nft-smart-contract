@@ -6,7 +6,7 @@ async function main() {
 
   await nft.deployed();
 
-  console.log("Greeter deployed to:", greeter.address);
+  console.log("Greeter deployed to:", nft.address);
 }
 
 const deploy = async () => {
